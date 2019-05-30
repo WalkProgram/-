@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             DateTime нг = new DateTime(2020, 1, 1);
-            DateTime сейчас = DateTime.Now;
+            DateTime сейчас = DateTime.MaxValue;
 
             TimeSpan tsp = нг - сейчас;
             int days = (int)tsp.TotalDays;
